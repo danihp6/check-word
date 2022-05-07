@@ -2,18 +2,16 @@
   "name": "check-word",
   "version": "1.0.0",
   "description": "Check if the word exist",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "mocha --config .mochaConfig.json"
+    "build": "tsc --build"
   },
   "author": "Daniel Herrero Pardo",
   "license": "ISC",
   "devDependencies": {
-    "fs": "0.0.1-security",
-    "path": "^0.12.7",
-    "chai": "^4.3.6",
     "colors": "^1.4.0",
-    "mocha": "^10.0.0",
-    "chai-uuid": "^1.0.6"
+    "fs": "0.0.1-security",
+    "typescript": "^4.6.4"
   }
 }
