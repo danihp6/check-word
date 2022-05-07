@@ -1,0 +1,19 @@
+{
+  "name": "check-word",
+  "version": "1.0.0",
+  "description": "Check if the word exist",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --config .mochaConfig.json"
+  },
+  "author": "Daniel Herrero Pardo",
+  "license": "ISC",
+  "devDependencies": {
+    "fs": "0.0.1-security",
+    "path": "^0.12.7",
+    "chai": "^4.3.6",
+    "colors": "^1.4.0",
+    "mocha": "^10.0.0",
+    "chai-uuid": "^1.0.6"
+  }
+}
