@@ -1,4 +1,4 @@
-const { exec } = require('child-process-async');
+const { exec } = require('child_process');
 
 exec("npm run build")
 exec("cpy src/dictionaries dist/dictionaries --flat")
