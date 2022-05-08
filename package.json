@@ -1,23 +1,20 @@
 {
   "name": "word-checker",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "Check if the word exist",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc --build",
-    "publish": "npm run prepublish && npm publish",
-    "prepublish": "npm run build && npm run copy:dictionaries && npm run copy:package",
-    "copy:dictionaries": "cpy src/dictionaries dist/dictionaries --flat",
-    "copy:package": "cpy package.json dist/ --flat"
+    "publish": "node scripts/publish"
   },
   "author": "Daniel Herrero Pardo",
   "license": "ISC",
   "devDependencies": {
     "colors": "^1.4.0",
+    "cpy-cli": "^4.1.0",
     "fs": "0.0.1-security",
     "path": "^0.12.7",
-    "typescript": "^4.6.4",
-    "cpy-cli": "^4.1.0"
+    "typescript": "^4.6.4"
   }
 }
