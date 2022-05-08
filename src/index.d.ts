@@ -1,6 +1,6 @@
 declare module 'check-word' {
   class Checker {
-    constructor(language: string, dictionaryPath: string);
+    constructor(language: string);
     check(word: string): boolean;
   }
 }

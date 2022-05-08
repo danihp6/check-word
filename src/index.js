@@ -1,10 +1,11 @@
 'use strict';
+const path = require('path');
 const fs = require('fs');
+const dictionaryPath = path.join(__dirname, 'dictionaries');
 
 class Checker {
   dictionary = {};
-  dictionaryPath = '';
-  constructor(language, dictionaryPath) {
+  constructor(language) {
     this.language = language;
     try {
       const file = fs.readFileSync(`${dictionaryPath}/${this.language}.json`).toString();
