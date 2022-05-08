@@ -1,12 +1,12 @@
 {
   "name": "word-checker",
-  "version": "1.0.16",
+  "version": "1.0.26",
   "description": "Check if the word exist",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc --build",
-    "publish": "node scripts/publish"
+    "npm:publish": "node scripts/publish"
   },
   "author": "Daniel Herrero Pardo",
   "license": "ISC",
