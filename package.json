@@ -1,6 +1,6 @@
 {
   "name": "word-checker",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Check if the word exist",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
