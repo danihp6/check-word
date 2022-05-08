@@ -24,6 +24,7 @@ yarn-error.log
 
 # Miscellaneous
 /typings
+/dist
 
 # System files
 .DS_Store
