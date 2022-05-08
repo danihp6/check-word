@@ -1,5 +1,5 @@
 {
-  "name": "check-word",
+  "name": "word-checker",
   "version": "1.0.0",
   "description": "Check if the word exist",
   "main": "dist/index.js",
