@@ -1,6 +1,6 @@
 {
   "name": "word-checker",
-  "version": "1.0.6",
+  "version": "1.0.4",
   "description": "Check if the word exist",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -11,6 +11,7 @@
   "author": "Daniel Herrero Pardo",
   "license": "ISC",
   "devDependencies": {
+    "child-process-async": "^1.0.1",
     "colors": "^1.4.0",
     "cpy-cli": "^4.1.0",
     "fs": "0.0.1-security",
