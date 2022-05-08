@@ -1,9 +1,13 @@
 {
   "name": "word-checker",
-  "version": "1.0.26",
+  "version": "1.0.32",
   "description": "Check if the word exist",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danihp6/word-checker"
+  },
   "scripts": {
     "build": "tsc --build",
     "npm:publish": "node scripts/publish"

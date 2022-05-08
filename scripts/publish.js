@@ -7,7 +7,8 @@ async function prepublish() {
   await exec("npm version patch --git-tag-version=false");
   await exec("cpy package.json dist/ --flat");
   await exec("cpy README.md dist/ --flat");
-  await exec("cd dist");
-  await exec("npm publish");
+  const version = JSON.parse((await exec("npm version --json=true")).stdout)["word-checker"];
+  console.log(`Uploading version ${version}`)
+  await exec("cd dist | npm publish");
 }
 prepublish();
